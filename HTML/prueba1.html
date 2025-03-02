@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pestaña</title>
+</head>
+<body>
+    <!--Encabezados-->
+    <h1 id="titulo">Mi primera pagina web</h1>    
+    <h2>Qué es una etiqueta?</h2>
+    <!--Párrafo                    texto en negrita                     texto resaltado            en cursiva-->
+    <p>Una etiqueta es una <strong>palabra clave</strong> asignada a un <mark>dato</mark>.<br> <em>son en consecuencia</em> un tipo de metadato.</p>
+    <style>
+
+        #titulo{
+            text-align: center;
+        }
+
+        #cabecera{
+            text-align: center;
+        }
+        
+    </style>
+    <blockquote>
+        Esto es una cita textual
+    </blockquote>
+
+    <pre>
+        Este es un bloque perfomateado
+        onde se conservan los espacios y saltos de linea
+    </pre>
+
+    <p>Este es un parrafo unicamente visual para ver el uso de
+        la etiqueta hr</p>
+         <hr/>
+         <p>Este es el segundo parrafo, separado del primero por la etiqueta hr, que puede
+       representarse mediante una línea horizontal.</p>
+    
+    <!-- Listas -->
+    <h2>Listas</h2>
+    <h3>Lista Desordenada (ul)</h3>
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </ul>
+
+    <h3>Lista Ordenada (ol)</h3>
+    <ol>
+        <li>Paso 1</li>
+        <li>Paso 2</li>
+        <li>Paso 3</li>
+    </ol>
+    
+    <hr>
+
+        <!-- Enlaces e imagen -->
+        <h2>Enlaces e Imágenes</h2>
+        <a href="https://www.example.com">Este es un enlace a Example</a>
+        
+        <br><br>
+        
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrqCJ3_iVY7MVR6lgglximy9G7erPyOsZezg&s" alt="Imagen de prueba"
+        width="400" height="200"
+        >
+        
+        <hr>
+
+    <!-- Tabla -->
+    <h2>Tabla de Datos</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Edad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Juan</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>30</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <hr>
+
+    <!-- Formulario -->
+    <h2>Formulario de Contacto</h2>
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+        <br><br>
+        
+        <label for="email">Correo electrónico:<br></label>
+        <input type="email" id="email" name="email">
+        <br><br>
+        
+        <input type="submit" value="Enviar">
+    </form>
+    
+    <hr>
+    
+    <!-- Elementos de estructura -->
+    <header>
+        <h1 id="cabecera">Cabecera de la página (Header)</h1>
+    </header>
+    
+    <nav>
+        <h2>Menú de Navegación</h2>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <h2>Contenido Principal (Main)</h2>
+        <section>
+            <article>
+                <h3>Artículo 1</h3>
+                <p id="ultimop">Este es el contenido del artículo.</p>
+            </article>
+        </section>
+        
+        <aside>
+            <h3>Contenido Secundario (Aside)</h3>
+            <p>Esta es una sección de contenido adicional.</p>
+        </aside>
+    </main>
+    
+    <footer>
+        <h3>Pie de Página (Footer)</h3>
+        <p>Derechos de autor &copy; 2025</p>
+    </footer>
+
+
+    
+
+
+
+</body>
+</html>
